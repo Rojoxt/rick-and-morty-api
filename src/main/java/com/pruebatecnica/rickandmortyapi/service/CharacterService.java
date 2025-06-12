@@ -34,10 +34,10 @@ public class CharacterService {
         return characterClient.getCharactersFiltered(name, status, species, type, gender, page);
     }
     public List<RickAndMortyCharacter> getMultipleCharactersByIds(String ids) {
-        Object result = characterClient.getMultipleIds(ids);
+        List<RickAndMortyCharacter> result = characterClient.getMultipleIds(ids);
 
-        if (result instanceof List) {
-            return (List<RickAndMortyCharacter>) result;
+        if (result != null) {
+            return result;
         } else {
             RickAndMortyCharacter singleCharacter = new ObjectMapper().convertValue(result, RickAndMortyCharacter.class);
             return List.of(singleCharacter);

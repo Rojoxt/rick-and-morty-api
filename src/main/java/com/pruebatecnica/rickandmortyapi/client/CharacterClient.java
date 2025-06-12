@@ -7,7 +7,6 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.List;
 
 @FeignClient(name = "character-client", url = "https://rickandmortyapi.com/api/character")
 public interface CharacterClient extends BaseClient<RickAndMortyCharacter> {

@@ -3,7 +3,6 @@ package com.pruebatecnica.rickandmortyapi.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pruebatecnica.rickandmortyapi.client.EpisodeClient;
 import com.pruebatecnica.rickandmortyapi.model.Episode;
-import com.pruebatecnica.rickandmortyapi.model.RickAndMortyCharacter;
 import com.pruebatecnica.rickandmortyapi.shared.response.ApiResponse;
 import org.springframework.stereotype.Service;
 
