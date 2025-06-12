@@ -24,7 +24,7 @@ public class CharacterController {
                                                                             @RequestParam(required = false) String type,
                                                                             @RequestParam(required = false) String gender,
                                                                             @RequestParam(defaultValue = "1") int page) {
-        ApiResponse response =   characterService.getCharacters(name, status, species, type, gender, page);
+        ApiResponse<RickAndMortyCharacter> response =   characterService.getCharacters(name, status, species, type, gender, page);
 
         return ResponseEntity.ok(response);
     }

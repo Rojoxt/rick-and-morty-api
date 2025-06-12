@@ -13,7 +13,7 @@ import java.util.List;
 public interface CharacterClient extends BaseClient<RickAndMortyCharacter> {
 
     @GetMapping
-    ApiResponse getCharactersFiltered(@RequestParam(required = false) String name,
+    ApiResponse<RickAndMortyCharacter> getCharactersFiltered(@RequestParam(required = false) String name,
                                       @RequestParam(required = false) String status,
                                       @RequestParam(required = false) String species,
                                       @RequestParam(required = false) String type,

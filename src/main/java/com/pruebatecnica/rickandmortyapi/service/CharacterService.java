@@ -30,7 +30,7 @@ public class CharacterService {
     public RickAndMortyCharacter getCharacter(int id) {
         return characterClient.getById(id);
     }
-    public ApiResponse getCharacters(String name, String status, String species, String type, String gender, int page) {
+    public ApiResponse<RickAndMortyCharacter> getCharacters(String name, String status, String species, String type, String gender, int page) {
         return characterClient.getCharactersFiltered(name, status, species, type, gender, page);
     }
     public List<RickAndMortyCharacter> getMultipleCharactersByIds(String ids) {
