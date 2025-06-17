@@ -1,0 +1,17 @@
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\client\CharacterClient.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\client\EpisodeClient.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\client\LocationClient.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\config\CorsConfig.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\controller\CharacterController.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\controller\EpisodeController.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\controller\LocationController.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\model\Episode.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\model\Location.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\model\RickAndMortyCharacter.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\RickAndMortyApiApplication.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\service\CharacterService.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\service\EpisodeService.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\service\LocationService.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\shared\client\BaseClient.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\shared\response\ApiResponse.java
+D:\Desarrollo\Java\rick-and-morty-api\src\main\java\com\pruebatecnica\rickandmortyapi\shared\response\InfoResponse.java
